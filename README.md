@@ -12,7 +12,7 @@ Note: there is currently 1 rare edge case bug (stats display as infinity or NaN)
 ## run
 
 To run locally, 
-- Clone the project and run `npm run build`. 
+- Clone the project and run `npm install`, then `npm run build`. 
 - Create `.env` in the project root folder and add `MONGODB_URI=<...>` and `SECRET='...'` environment variables. Default port should be 3003, add `PORT=3003` if needed.
 - Run `npm start`.
 
