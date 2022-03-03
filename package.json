@@ -2,9 +2,12 @@
   "name": "lost-ark-tools",
   "version": "1.0.0",
   "description": "project for Fullstack open",
+  "engines": {
+    "node": "12.14.x"
+  },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "NODE_ENV=production node index.js",
     "dev": "cross-env NODE_ENV=development nodemon index.js",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
