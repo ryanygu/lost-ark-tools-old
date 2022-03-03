@@ -1,0 +1,11 @@
+PUT http://localhost:3003/api/blogs/61c1cc23079063fb9b0ae468
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYxYzE2ZTZkM2FmMGNkZjM4YWU4M2IyOSIsImlhdCI6MTY0MDEzMTYyMywiZXhwIjoxNjQwMTM1MjIzfQ.YQAPdwYNqF1uNPEPQnwQ7QA5zrWUPollW_LAJcoHIyc
+
+{
+    "title": "root post 5",
+    "author": "root",
+    "url": "url",
+    "likes": 11,
+    "user": "61c16e6d3af0cdf38ae83b29"
+}

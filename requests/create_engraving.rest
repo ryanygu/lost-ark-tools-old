@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/engravings
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWQiOiI2MjFlNzBmMTQ2NTRiMzY2OTNlYmVkM2YiLCJpYXQiOjE2NDYxNjIxNzV9.vj4tdfF0bauXGJs4THhG8l3QX_znYQnAaGy04V3fVJ0
+
+{
+    "rarity": "legendary",
+    "score": 18,
+    "line1": ["+1", "x", "+1", "+1", "+1", "x", "+1", "+1", "+1"],
+    "line2": ["x", "x", "+1", "+1", "+1", "+1", "x", "+1", "x"],
+    "line3": ["+1", "x", "x", "x", "+1", "x", "x", "x", "+1"]
+}
+
