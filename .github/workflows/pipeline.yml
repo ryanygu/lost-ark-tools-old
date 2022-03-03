@@ -35,7 +35,6 @@ jobs:
           touch .env
           echo SECRET=${{ secrets.SECRET }} >> .env
           echo MONGODB_URI=${{ secrets.MONGODB_URI }} >> .env
-          cat .env
       
       - name: e2e tests
         uses: cypress-io/github-action@v2

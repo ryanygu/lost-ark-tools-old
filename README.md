@@ -1,5 +1,14 @@
 # lost-ark-tools
 
+Deployed version is accessable at https://lost-ark-tools.herokuapp.com/
+
+There is currently no user registration interface. To test the app please use the following credentials:
+```
+username: admin
+password: password
+```
+
+Note: there is currently 1 rare edge case bug (stats display as infinity or NaN) in `/engravings` that requires the user to refresh the page.
 ## run
 
 To run locally, 
