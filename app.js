@@ -14,10 +14,6 @@ const app = express()
 
 app.use(express.static(path.join(__dirname, 'build')));
 
-app.get('/*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
-
 mongoose.connect(config.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     logger.info('connected to MongoDB')
