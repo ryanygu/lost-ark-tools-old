@@ -33,11 +33,11 @@ jobs:
       - name: e2e tests
         uses: cypress-io/github-action@v2
         env:
-          SECRET=${{secrets.SECRET}}
-          MONGODB_URI=${{secrets.MONGODB_URI}}
+          SECRET: ${{secrets.SECRET}}
+          MONGODB_URI: ${{secrets.MONGODB_URI}}
         with:
           command: npm run test:e2e
-          start: npm start
+          start: npm start SECRET=$SECRET MONGODB_URI=$MONGODB_URI
           wait-on: http://localhost:3003
       
       # https://github.com/AkhileshNS/heroku-deploy/issues/84
