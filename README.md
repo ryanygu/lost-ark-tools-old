@@ -1,6 +1,6 @@
 # lost-ark-tools
 
-Deployed version is accessable at https://lost-ark-tools.herokuapp.com/
+Deployed version (v1.0.0) is accessable at https://lost-ark-tools.herokuapp.com/
 
 There is currently no user registration interface. To test the app please use the following credentials:
 ```
@@ -21,6 +21,7 @@ See `package.json` for more details.
 
 ### todo
 
+- update the ui/design, currently just a barebones ui to get the whole project working
 - add linting
 - add unit tests (Jest/Mocha)
 - add a comprehensive integration test (Cypress)
