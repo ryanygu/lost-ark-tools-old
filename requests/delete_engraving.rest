@@ -1,0 +1,3 @@
+DELETE http://localhost:3003/api/engravings/621e6d27a475fce47b9b90bf
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOiI2MjFlNjI5ZWRmNDQ4ZDU4Yjc0YzE1NTgiLCJpYXQiOjE2NDYxNTk5NDd9.8RkvPR9yaOiVOYwmOdpghBSd0vFKkzb1H_NI0oLd9ic
